@@ -1,0 +1,17 @@
+ <link rel="stylesheet" href="/css/user_sign_up.css">
+ <div>
+ <center>
+ <h1 style="margin-top: 50px; margin-bottom: 30px;">UserSign up</h1>
+ <form action="/users/create" method ="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="password" name="confirm_password" placeholder="Confirm_Password" required>
+    <input type="submit" value="Sign Up">
+ </form>
+
+ <p style="margin-top: 30px;">
+   <a href="/users/auth/google"> Google SignIn/SignUp</a>
+</p>
+</center>
+</div>
